@@ -1,0 +1,20 @@
+.header-wrapper{
+
+    background-color: #008585;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 0 calc(10px + 0.35vw);
+    padding:  0px;
+}
+
+.app-logo{
+
+    grid-column: 2/7;
+
+}
+
+.nav-controls{
+
+    grid-column: 8/13;
+}
